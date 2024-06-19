@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.bd ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #66c6e0;
+}
+
+.bd li a {
+  display: block;
+  color: #120fb2;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.bd li a.active {
+  background-color: #df7f12;
+  color: white;
+}
+
+.bd li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.bd
+{
+    border: 1px solid black;
+    width: 200px;
+    margin: 20px;
+    padding: 7px;
+}
+
+
+.hr ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9cb3ca;
+}
+
+.hr li {
+  float: left;
+  border-right:1px solid #180fa3;
+}
+
+
+.hr li a {
+  display: block;
+  color: #180fa3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.hr li a:hover:not(.active)  {
+  background-color: #cecbcb;
+}
+
+.hr li a.active {
+  background-color: #454e4a;
+  color:white;
+}
+
+.hr
+{
+  border: 1px solid black;
+    width: 400px;
+    margin: 20px;
+    padding: 7px;
+}
+</style>
+</head>
+<body>
+
+<h2>Vertical Navigation Bar</h2>
+<div class="bd">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#java">Java</a></li>
+  <li><a href="#css">CSS</a></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="#bs">Bootstrap</a></li>
+</ul>
+</div>
+
+<h2>Horizontal Navigation Bar</h2>
+<div class="hr">
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#java">Java</a></li>
+    <li><a href="#html">HTML</a></li>
+    <li><a href="#css">CSS</a></li>
+  </ul>
+</div>
+</body>
+</html>
